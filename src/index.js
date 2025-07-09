@@ -1,7 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background-color: #f9fafb;
+}
